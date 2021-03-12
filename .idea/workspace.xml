@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="242b8b43-dd9a-42ed-8566-33ea222b48c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ansible-install-git.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/defaults/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/handlers/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/tasks/setup-CentOS.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/tasks/variables.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/tests/inventory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/tests/test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/vars/Alpine-3.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/vars/CantOS-7.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/vars/Ubuntu-16.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.role/vars/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory_children" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playbook.yml" afterDir="false" />
+    <list default="true" id="242b8b43-dd9a-42ed-8566-33ea222b48c1" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/awx/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +39,16 @@
       <updated>1615467272984</updated>
       <workItem from="1615467274193" duration="16000" />
       <workItem from="1615467311729" duration="60000" />
-      <workItem from="1615467414263" duration="17618000" />
+      <workItem from="1615467414263" duration="18320000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1615557894850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615557894850</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +66,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
