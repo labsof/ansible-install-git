@@ -1,0 +1,5 @@
+---
+- name: Check if all package are installed
+  yum:
+    name: "{{ git_packages }}"
+    state: present

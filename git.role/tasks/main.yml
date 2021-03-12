@@ -1,0 +1,57 @@
+---
+# tasks file for git.role
+- include_tasks: variables.yml
+
+- include_tasks: setup-CentOS.yml
+  when: ansible_distribution == 'CentOS'
+
+- name: get git repo
+  git:
+    repo: 'https://github.com/git/git.git'
+    dest: /home/{{ ansible_ssh_user }}/git
+    version: v2.30.1
+  tags:
+    - git-repo
+- name: make configure
+  shell: cd git && make configure
+  tags:
+    - make_config
+- name: set configure
+  shell: cd git && ./configure --prefix=/usr/local
+  tags:
+    - configure
+- name: Get nproc
+  shell: nproc
+  register: core_number
+  tags:
+    - get_nproc
+- name: Get core number
+  debug:
+    msg: "{{ core_number.stdout }}"
+  tags:
+    - ncore
+- name: Compile git
+  shell: cd git && make -j{{ core_number.stdout }}
+  tags:
+    - compile
+- name: install git
+  shell: cd git && make install
+  tags:
+    - install
+- name: remove old git
+  yum:
+    name: git
+    state: absent
+  tags:
+    - remove_git
+- name: add path
+  blockinfile:
+    path: /home/{{ ansible_ssh_user }}/.bash_profile
+    block: |
+      export PATH=$PATH:/usr/local/bin
+  tags:
+    - path
+
+
+
+

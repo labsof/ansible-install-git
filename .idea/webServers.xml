@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="63d28e74-1748-4152-af56-88faeefb3d21" name="ansible">
+        <fileTransfer accessType="SFTP" host="170.75.170.45" port="22" sshConfigId="573691e3-f466-4301-aee5-4c962c8e4026" sshConfig="centos@170.75.170.45:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e88aa988-216c-419c-8685-f95a388ef48d" name="remote">
+        <fileTransfer accessType="SFTP" host="170.75.170.45" port="22" sshConfigId="573691e3-f466-4301-aee5-4c962c8e4026" sshConfig="centos@170.75.170.45:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="dcbcc127-8802-4801-aaa9-1050462c7820" name="controller">
+        <fileTransfer accessType="SFTP" host="170.75.170.204" port="22" sshConfigId="4c99dc46-ffc3-451a-adfb-a4965147d587" sshConfig="centos@170.75.170.204:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

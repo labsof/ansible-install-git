@@ -1,0 +1,6 @@
+---
+- name: install
+  hosts : centos
+  become: true
+  roles:
+    - { role: git.role }
